@@ -1,10 +1,27 @@
+@font-face{
+    font-family: 'courgetter';
+    src: local('Courgetter'),
+    url('../fonts/Courgette/courgette.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'pacifico';
+    src: local('Pacifico'),
+    url('../fonts/Pacifico/pacifico.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'satisfy';
+    src: local('Satisfy'),
+    url('../fonts/Satisfy/satisfy.ttf') format('truetype');
+}
 /* estilo globales */
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'courgetter', cursive;
 }
 html{
     font-size: 18px;
@@ -59,7 +76,7 @@ a{
 }
 
 .container-logo .icon-menu{
-    width: 1.5rem;
+    width: 3rem;
     cursor: pointer;
 }
 

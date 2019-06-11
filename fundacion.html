@@ -1,12 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+    user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Reposteria Casera</title>
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/productos.css">
+    <link rel="stylesheet" href="css/fundacion.css">
 </head>
+
 <body>
-    <h1>Fundacion</h1>
+    <header>
+        <nav class="container menu">
+            <div class="container container-logo" id="container-logo">
+                <div class="container container-logo-img">
+                    <img src="img/bg2.jpeg" class="img-logo" alt="Reposteria Casera">
+                    <h1>Reposteria Casera</h1>
+                </div>
+                <img src="img/002-menu-1.svg" class="icon-menu" id="btn-menu" onclick="menuOpen()">
+            </div>
+
+            <div class="container container-items" id="menu-items" style="display: none">
+                <a href="index.html" class="item-menu">Inicio</a>
+                <a href="productos.html" class="item-menu">Productos</a>
+                <a href="bebidas.html" class="item-menu">Bebidas</a>
+                <a href="sucursales.html" class="item-menu">Sucursales</a>
+                <a href="fundacion.html" class="item-menu">Fundación</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="section">
+            <h4 class="title-section link-title"><a href="">Second Chance</a></h4>
+            <p class="description-section">Ayudamos a la fundacion <b>'SECOND CHANCE'</b> dedicada a recoger perritos de
+                la calle que no tienen hogar, alberga a mas de 100 perritos.</p>
+            <!-- <h3 class="title-section"><em>'"Todos merecemos una segunda oportunidad"'</em></h3> -->
+            <div class="container">
+                <div class="container card card2">
+                    <div class="container-name-pet">
+                        <p class="name-pet">Locki</p>
+                    </div>
+                    <img class="image-card only-image image-pet-1">
+                </div>
+                <div class="container card card2">
+                    <div class="container-name-pet">
+                        <p class="name-pet">Locki</p>
+                    </div>
+                    <img class="image-card only-image image-pet-2">
+                </div>
+                <div class="container card card2">
+                    <div class="container-name-pet">
+                        <p class="name-pet">Locki</p>
+                    </div>
+                    <img class="image-card only-image image-pet-3">
+                </div>
+                <div class="container card card2">
+                    <div class="container-name-pet">
+                        <p class="name-pet">Locki</p>
+                    </div>
+                    <img class="image-card only-image image-pet-4">
+                </div>
+                <div class="container card card2">
+                    <div class="container-name-pet">
+                        <p class="name-pet">Locki</p>
+                    </div>
+                    <img class="image-card only-image image-pet-5">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container about-us">
+            <h4 class="title-footer">NUESTRA FANPAGE</h4>
+            <div class="container item-social">
+                <img src="img/002-facebook.svg" alt="">
+                <a href="">Facebook</a>
+            </div>
+            <h4 class="title-footer">CONTACTATE CON NOSOTROS</h4>
+            <div class="container contact-me">
+                <div class="container item-social">
+                    <img src="img/003-whatsapp.svg" alt="">
+                    <a href="" id="msg-whatsapp">Whatsapp</a>
+                </div>
+                <div class="container item-social">
+                    <img src="img/001-telephone.svg" alt="">
+                    <a href="">Tel 2785911</a>
+                </div>
+                <div class="container item-social">
+                    <img src="img/001-gmail.svg" alt="">
+                    <a href="mailto:Carlaucontractor@gmail.com">Email</a>
+                </div>
+                <div class="container item-social">
+                    <img src="img/004-map.svg" alt="">
+                    <a href="https://goo.gl/maps/HWJmNAQCm3e7TiNr5" target="_blank">Direccion</a>
+                </div>
+                <!-- <div class="container item-social">
+                    <img src="img/dog.svg" alt="">
+                    <a href="" target="_blank">Second Chance</a>
+                </div> -->
+            </div>
+            <p class="copy">Baking Happiness &copy; Derechos Reservados 2019</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 </html>
