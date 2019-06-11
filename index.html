@@ -1,16 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+    user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Reposteria Casera</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-    <h1>Hola mundo</h1>
+    <nav class="container menu">
+        <div class="container container-logo" id="container-logo">
+            <img src="" alt="aqui va el logo">
+            <img src="img/menu.svg" class="icon-menu" id="btn-menu" onclick="menuOpen()">
+        </div>
 
+        <div class="container container-items" id="menu-items" style="display: none">
+            <a href="index.html" class="item-menu">Inicio</a>
+            <a href="productos.html" class="item-menu">Productos</a>
+            <a href="bebidas.html" class="item-menu">Bebidas</a>
+            <a href="sucursales.html" class="item-menu">Sucursales</a>
+            <a href="fundacion.html" class="item-menu">Fundacion</a>
+        </div>
+    </nav>
+    <header>
+        <div class="container go-to-bottom">
+            <a href="#mision-vision-objetivo">
+                <img src="img/arrow_bottom.svg" class="arrow-bottom">
+            </a>
+        </div>
+    </header>
 
+    <main id="mision-vision-objetivo">
+        <div class="container container-mis-vis-obj">
+            <div class="container card">
+                <h3 class="title-card">MISION</h3>
+                <img class="icon-card" src="" alt="icon">
+                <p class="text-card">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id voluptatem
+                    consectetur, doloribus at in
+                    fugiat libero eum quas quidem aspernatur culpa obcaecati voluptatibus architecto optio illum
+                    repellendus aliquid quam ipsam?</p>
+            </div>
+            <div class="container card">
+                <h3 class="title-card">VISION</h3>
+                <img class="icon-card" src="" alt="icon">
+                <p class="text-card">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id voluptatem
+                    consectetur, doloribus at in
+                    fugiat libero eum quas quidem aspernatur culpa obcaecati voluptatibus architecto optio illum
+                    repellendus aliquid quam ipsam?</p>
+            </div>
+            <div class="container card">
+                <h3 class="title-card">OBJETIVO</h3>
+                <img class="icon-card" src="" alt="icon">
+                <p class="text-card">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id voluptatem
+                    consectetur, doloribus at in
+                    fugiat libero eum quas quidem aspernatur culpa obcaecati voluptatibus architecto optio illum
+                    repellendus aliquid quam ipsam?</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container about-us">
+            <h4 class="title-footer">NUESTRA FANPAGE</h4>
+            <div class="container item-social">
+                <img src="img/002-facebook.svg" alt="">
+                <a href="">Facebook</a>
+            </div>
+            <h4 class="title-footer">CONTACTATE CON NOSOTROS</h4>
+            <div class="container contact-me">
+                <div class="container item-social">
+                    <img src="img/003-whatsapp.svg" alt="">
+                    <a href="" id="msg-whatsapp">Whatsapp</a>
+                </div>
+                <div class="container item-social">
+                    <img src="img/001-gmail.svg" alt="">
+                    <a href="mailto:tucorreo@gmail.com">Email</a>
+                </div>
+                <div class="container item-social">
+                    <img src="img/004-map.svg" alt="">
+                    <a href="https://goo.gl/maps/wB97HmLmVDmAudwF7" target="_blank">Direccion</a>
+                </div>
+            </div>
+            <p class="copy">Derechos Reservados &copy; 2019</p>
+        </div>
+    </footer>
     <script src="js/main.js"></script>
+    <script src="js/menu.js"></script>
 </body>
+
 </html>

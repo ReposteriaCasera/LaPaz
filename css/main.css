@@ -1,3 +1,152 @@
+/* estilo globales */
+
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+html{
+    font-size: 18px;
+    scroll-behavior: smooth;
+    /* background-color: #eeeeee; */
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+/* estilos del header */
+header{
+    height: 100vh;
+    background: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.container-logo{
+    padding: 1rem;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(133, 108, 29); */
+}
+
+.container-logo .icon-menu{
+    width: 1.5rem;
+}
+
+.menu{
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    /* background-color: #000000; */
+    align-items: center;
+}
+
+.container-items{
+    display: none;
+    width: 100%;
+    padding: 1rem;
+    justify-content: space-around;
+    background-color: #000;
+}
+
+.container-items .item-menu{
+    padding: 1rem;
+}
+
+.container-items .item-menu:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.go-to-bottom{
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 1rem;
+}
+
+.go-to-bottom img{
+    width: 3rem;
+    cursor: pointer;
+}
+
+/* estilos card */
+.card{
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 2px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card .title-card{
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.card .icon-card{
+    margin-bottom: 1rem;
+}
+
+.card .text-card{
+    /* font-size: 1.2rem; */
+    text-align: justify;
+}
+
+/* estilos del main */
+.container-mis-vis-obj{
+    padding-top: 2rem;
+}
+
+/* estilos footer */
+.about-us{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    color: #fff;
+    background: #000;
+}
+
+.about-us .title-footer{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.about-us a{
+    padding: 1rem;
+}
+.about-us img{
+    margin-right: 0.5rem;
+    width: 2rem;
+}
+
+.about-us .item-social{
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-us .copy{
+    margin-top: 1.5rem;
 }
