@@ -14,13 +14,15 @@
 }
 
 .card2 .image-card{
-    height: 20rem;
+    height: 30rem;
     width: 100%;
     border-radius: 0.3rem 0.3rem 0 0;
     margin-bottom: 1rem;
-    background: url(../img/bg.jpg);
+    /* background: url(../img/bg.jpg); */
     background-position: center center;
     background-size: cover;
+    object-fit: cover;
+    object-position: center;
 }
 
 .card2 .only-image{
@@ -56,7 +58,9 @@
 
 
 /* falta asignar las imagenes en los cards */
-.card2 .image-tortas{}
+.card2 .image-tortas{
+    /* background: url(../img/shop/grande_torta.jpg); */
+}
 .card2 .image-queques{}
 .card2 .image-brazo-gitano{}
 .card2 .image-pies{}
