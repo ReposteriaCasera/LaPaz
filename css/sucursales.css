@@ -1,0 +1,17 @@
+.section{
+    padding-top: 0;
+}
+
+.container-mapas{
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+.section .image-empresa{
+    width: 100%;
+}
+
+.section .text-empresa{
+    text-align: justify;
+    padding: 1.5rem;
+}

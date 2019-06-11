@@ -1,12 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+                user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Reposteria Casera</title>
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/productos.css">
+    <link rel="stylesheet" href="css/sucursales.css">
 </head>
+
 <body>
-    <h1>Sucursales</h1>
+    <nav class="container menu">
+        <div class="container container-logo" id="container-logo">
+            <div class="container container-logo-img">
+                <img src="img/bg2.jpeg" class="img-logo" alt="Reposteria Casera">
+                <h1>Reposteria Casera</h1>
+            </div>
+            <img src="img/menu.svg" class="icon-menu" id="btn-menu" onclick="menuOpen()">
+        </div>
+
+        <div class="container container-items" id="menu-items" style="display: none">
+            <a href="index.html" class="item-menu">Inicio</a>
+            <a href="productos.html" class="item-menu">Productos</a>
+            <a href="bebidas.html" class="item-menu">Bebidas</a>
+            <a href="sucursales.html" class="item-menu">Sucursales</a>
+            <a href="fundacion.html" class="item-menu">Fundacion</a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="section">
+            <img src="https://www.eltiempo.com/files/article_main/uploads/2019/03/21/5c9424d17277c.jpeg"
+                class="image-empresa">
+            <p class="text-empresa">
+                La Repostería CASERA ve su inició en el 17 de septiembre de 1987 con el nombre de Repostería Casera,
+                anteriormente se llamaba CAFÉ PARA DOS. Este emprendimiento comenzó con la instalación de una tienda en
+                el Edificio Fénix #407 ubicado en la calle Loayza Esq. Potosí, en la que se vendía porciones de tortas y
+                tortas por pedido, dependiendo la demanda, hoy en dia es la primera sucursal de la empresa.
+                Al pasar el tiempo se observó que sus productos adquirieron una gran aceptación en el mercado, y la
+                empresa empezó a adquirir personal para la realización de tortas.</p>
+            <h3 class="title-section">CASA MATRIZ</h3>
+            <div class="container container-mapas">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3824.9291106956935!2d-68.1040045!3d-16.5296761!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f20ef58dc97a7%3A0x5f781110f8aea52!2sPasteleria+La+Casera!5e0!3m2!1ses-419!2sbo!4v1560261014553!5m2!1ses-419!2sbo"
+                    width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <h3 class="title-section">SUCURSAL 1</h3>
+            <div class="container container-mapas">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.5420464789922!2d-68.13538328513592!3d-16.49871048861679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f2071ba1a7377%3A0x31e686d07c55e0e2!2sLoayza+407%2C+La+Paz!5e0!3m2!1ses-419!2sbo!4v1560260353342!5m2!1ses-419!2sbo"
+                    width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container about-us">
+            <h4 class="title-footer">NUESTRA FANPAGE</h4>
+            <div class="container item-social">
+                <img src="img/002-facebook.svg" alt="">
+                <a href="">Facebook</a>
+            </div>
+            <h4 class="title-footer">CONTACTATE CON NOSOTROS</h4>
+            <div class="container contact-me">
+                <div class="container item-social">
+                    <img src="img/003-whatsapp.svg" alt="">
+                    <a href="" id="msg-whatsapp">Whatsapp</a>
+                </div>
+                <div class="container item-social">
+                    <img src="img/001-telephone.svg" alt="">
+                    <a href="">Tel 2785911</a>
+                </div>
+                <div class="container item-social">
+                    <img src="img/001-gmail.svg" alt="">
+                    <a href="mailto:Carlaucontractor@gmail.com">Email</a>
+                </div>
+                <div class="container item-social">
+                    <img src="img/004-map.svg" alt="">
+                    <a href="https://goo.gl/maps/HWJmNAQCm3e7TiNr5" target="_blank">Direccion</a>
+                </div>
+            </div>
+            <p class="copy">Baking Happiness &copy; Derechos Reservados 2019</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/menu.js"></script>
 </body>
+
 </html>

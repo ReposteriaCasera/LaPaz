@@ -12,6 +12,11 @@ html{
     /* background-color: #eeeeee; */
 }
 
+/* main{
+    background: rgb(236,208,176);
+    background: linear-gradient(180deg, rgba(236,208,176,1) 0%, rgba(236,225,213,1) 50%, rgba(236,225,213,0.4556023092830882) 100%); 
+} */
+
 a{
     text-decoration: none;
     color: #fff;
