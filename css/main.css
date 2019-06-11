@@ -23,9 +23,9 @@ a{
 }
 
 /* estilos del header */
-header{
+.my-header{
     height: 100vh;
-    background: url('../img/bg.jpg');
+    background: url('../img/logo.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -37,7 +37,20 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* background-color: rgb(133, 108, 29); */
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container-logo .container-logo-img{
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    color: #fff;
+}
+
+.container-logo .img-logo{
+    height: 3rem;
+    margin-right: 1rem;
+    object-fit: contain;
 }
 
 .container-logo .icon-menu{
@@ -114,6 +127,9 @@ header{
     text-align: justify;
 }
 
+.card .icon-card{
+    width: 8rem;
+}
 /* estilos del main */
 .container-mis-vis-obj{
     padding-top: 2rem;
@@ -149,4 +165,5 @@ header{
 
 .about-us .copy{
     margin-top: 1.5rem;
+    text-align: center;
 }

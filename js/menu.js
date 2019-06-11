@@ -7,6 +7,6 @@ function menuOpen() {
         contLogo.style.background = '#000'
     } else {
         menuItem.style.display = "none";
-        contLogo.style.background = 'none'
+        contLogo.style.background = 'rgba(0, 0, 0, 0.5)'
     }
 }
