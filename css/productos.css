@@ -64,3 +64,10 @@
 .card2 .image-postres{}
 .card2 .image-pan-blanco{}
 .card2 .image-pan-integral{}
+
+@media screen and (min-width:950px){
+    .container-cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

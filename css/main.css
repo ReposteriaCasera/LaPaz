@@ -184,9 +184,69 @@ a{
 .about-us .item-social{
     flex-direction: row;
     align-items: center;
+    /* margin-left: 5rem; */
 }
 
 .about-us .copy{
     margin-top: 1.5rem;
     text-align: center;
+}
+
+.container-fan-page, .container-contact-me{
+    width: 100%;
+    align-items: center;
+}
+
+
+/* media queries */
+@media screen and (min-width:950px){
+    html{
+        font-size: 20px;
+    }
+
+    .menu{
+        flex-direction: row;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .container-logo{
+        background-color: transparent;
+    }
+
+    .container-logo .icon-menu{
+        display: none;
+    }
+    
+    .container-items{
+        display: inherit !important;
+        flex-direction: row;
+        background: transparent;
+        height: 100%;
+    }
+
+    .container-items .item-menu{
+        padding: 1rem;
+        font-size: 1.3rem;
+    }
+    
+    .container-items .item-menu:hover{
+        background-color: transparent;
+        color: #fff;
+    }
+
+    .container-mis-vis-obj{
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    .card{
+        flex: 1;
+    }
+
+    .container-about-us{
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
 }
