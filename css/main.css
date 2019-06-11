@@ -55,6 +55,7 @@ a{
 
 .container-logo .icon-menu{
     width: 1.5rem;
+    cursor: pointer;
 }
 
 .menu{

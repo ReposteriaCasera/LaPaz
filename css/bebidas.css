@@ -1,0 +1,10 @@
+.my-header{
+    background: url(../img/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+/* falta asignar las imagenes en los cards */
+.card2 .image-te{}
+.card2 .image-mate{}
+.card2 .image-jugo-de-manzana{}
