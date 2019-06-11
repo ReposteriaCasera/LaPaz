@@ -47,7 +47,7 @@ a{
 /* estilos del header */
 .my-header{
     height: 100vh;
-    background: url('../img/logo.jpg');
+    background: url('../img/bg.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
