@@ -1,0 +1,30 @@
+.formulario{
+	width: 100%;
+}
+
+.btn-send{
+	margin-top: 2rem;
+	padding: 1rem;
+	border-radius: 2rem;
+	background-color: yellow;
+	box-shadow: none;
+	border: none;
+	color: red;
+	width: 100%;
+	cursor: pointer;
+}
+
+.container-item-form{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.title-item-form{
+	margin-bottom: 0.7rem;
+}
+
+.list-form{
+	background-color: white;
+	border: none;
+	padding: 0.3rem;
+}

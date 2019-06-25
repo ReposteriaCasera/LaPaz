@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,
+        user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Reposteria Casera</title>
+        <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/productos.css">
+        <link rel="stylesheet" href="css/pedido.css">
+    </head>
+    <body>
+        <header>
+            <nav class="container menu">
+                <div class="container container-logo" id="container-logo">
+                    <div class="container container-logo-img">
+                        <img src="img/bg2.jpeg" class="img-logo" alt="Reposteria Casera">
+                        <h1>Reposteria Casera</h1>
+                    </div>
+                    <img src="img/002-menu-1.svg" class="icon-menu" id="btn-menu" onclick="menuOpen()">
+                </div>
+                <div class="container container-items" id="menu-items" style="display: none">
+                    <a href="index.html" class="item-menu">Inicio</a>
+                    <a href="productos.html" class="item-menu">Productos</a>
+                    <a href="bebidas.html" class="item-menu">Bebidas</a>
+                    <a href="sucursales.html" class="item-menu">Sucursales</a>
+                    <a href="fundacion.html" class="item-menu">Fundación</a>
+                    <a href="pedidos.html" class="item-menu">Pedidos</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="section">
+                <h3 class="title-section">HAZ TU RESERVA</h3>
+                <div class="container">
+                    <div class="container card">
+                        <form class="formulario">
+                            <legend class="title-card">Formulario de Pedido</legend>
+                            <div>
+                                <div class="container container-item-form">
+                                    <label class="title-item-form" for="producto">Producto</label>
+                                    <input type="text" name="producto" id="producto">
+                                </div>
+                                <div class="container container-item-form">
+                                    <label class="title-item-form" for="fecha">Fecha de Entrega</label>
+                                    <input type="date" name="fecha" id="fecha" value="" min="2019-01-01" max="2025-12-31">
+                                </div>
+                                <div class="container container-item-form">
+                                    <label class="title-item-form" for="hora">Hora de Entrega</label>
+                                    <input type="time" name="hora" id="hora">
+                                </div>
+                                <div class="container container-item-form">
+                                    <label class="title-item-form" for="pago">Forma de Pago</label>
+                                    
+                                    <select class="list-form" id="pago">
+                                        <option value="efectivo">Efectivo</option>
+                                        <option value="tarjeta">Tarjeta</option>
+                                    </select>
+                                </div>
+                                <input class="btn-send" type="submit" value="Realizar Pedido">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="container about-us">
+                <div class="container container-about-us">
+                    <div class="container container-fan-page">
+                        <h4 class="title-footer">NUESTRA FANPAGE</h4>
+                        <div class="container item-social">
+                            <img src="img/002-facebook.svg" alt="">
+                            <a href="https://www.facebook.com/Reposter%C3%ADa-Casera-147267009228248/"
+                            target="_blank">Facebook</a>
+                        </div>
+                    </div>
+                    <div class="container container-contact-me">
+                        <h4 class="title-footer">CONTACTATE CON NOSOTROS</h4>
+                        <div class="container contact-me">
+                            <div class="container item-social">
+                                <img src="img/003-whatsapp.svg" alt="">
+                                <a href="" id="msg-whatsapp">Whatsapp</a>
+                            </div>
+                            <div class="container item-social">
+                                <img src="img/001-telephone.svg" alt="">
+                                <a href="">Tel 2785911</a>
+                            </div>
+                            <div class="container item-social">
+                                <img src="img/001-gmail.svg" alt="">
+                                <a href="mailto:Carlaucontractor@gmail.com">Email</a>
+                            </div>
+                            <div class="container item-social">
+                                <img src="img/004-map.svg" alt="">
+                                <a href="https://goo.gl/maps/HWJmNAQCm3e7TiNr5" target="_blank">Direccion</a>
+                            </div>
+                            <!-- <div class="container item-social">
+                                <img src="img/dog.svg" alt="">
+                                <a href="" target="_blank">Second Chance</a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <p class="copy">Baking Happiness &copy; Derechos Reservados 2019</p>
+            </div>
+        </footer>
+        <script src="js/main.js"></script>
+        <script src="js/menu.js"></script>
+    </body>
+</html>
