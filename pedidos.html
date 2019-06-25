@@ -36,7 +36,7 @@
                 <h3 class="title-section">HAZ TU RESERVA</h3>
                 <div class="container">
                     <div class="container card">
-                        <form class="formulario">
+                        <form class="formulario" onsubmit="return validar()">
                             <legend class="title-card">Formulario de Pedido</legend>
                             <div>
                                 <div class="container container-item-form">
@@ -59,7 +59,7 @@
                                         <option value="tarjeta">Tarjeta</option>
                                     </select>
                                 </div>
-                                <input class="btn-send" type="submit" value="Realizar Pedido">
+                                <input class="btn-send" id="btn-send" type="submit" href='' value="Realizar Pedido">
                             </div>
                         </form>
                     </div>
@@ -108,5 +108,6 @@
         </footer>
         <script src="js/main.js"></script>
         <script src="js/menu.js"></script>
+        <script src="js/pedido.js"></script>
     </body>
 </html>
